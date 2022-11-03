@@ -1,0 +1,35 @@
+<?php
+
+namespace DummyNamespace;
+
+use BrandStudio\Starter\Http\Controllers\DefaultCrudController;
+use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
+
+use App\Http\Requests\DummyClassRequest;
+use App\Models\DummyClass;
+
+class DummyClassCrudController extends DefaultCrudController
+{
+
+    protected $class = DummyClass::class;
+    protected $requestClass = DummyClassRequest::class;
+
+    public function setup()
+    {
+        parent::setup();
+
+    }
+
+    protected function setupListOperation()
+    {
+        //
+    }
+
+    protected function setupCreateOperation()
+    {
+        parent::setupCreateOperation();
+
+
+    }
+
+}
