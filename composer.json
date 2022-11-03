@@ -20,9 +20,9 @@
         }
     ],
     "require": {
-        "brandstudio/file": "^1.0",
-        "brandstudio/identifiable": "^1.0",
-        "brandstudio/publishable": "^1.0"
+        "brandstudio/file": "dev-master",
+        "brandstudio/identifiable": "dev-master",
+        "brandstudio/publishable": "dev-master"
     },
     "autoload": {
         "psr-4": {
